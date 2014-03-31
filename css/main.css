@@ -1,0 +1,64 @@
+/* 
+Font Families:
+
+font-family: 'Chango', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Nova Square', cursive;
+font-family: 'Karla', sans-serif;
+
+*/
+
+h1 {
+  font-family: 'Chango', sans-serif;
+}
+
+h2 {
+  font-family: 'Fredoka One', sans-serif;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  background: #111;
+  color: #CCF;
+  padding: 0;
+  margin: 0;
+}
+
+
+div.heading {
+  background: #444;
+}
+
+div.heading h1 {
+  margin-top: -5px;
+  text-align: center;
+}
+
+div.heading h2 {
+  text-align: center;
+  margin: 0;
+}
+
+
+nav {
+  float: left;
+  background: #333;
+  width: 100%;
+}
+
+div.mainmenu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  
+}
+
+div.mainmenu li {
+  padding: 0 5%;
+  display: inline-block;
+
+}
