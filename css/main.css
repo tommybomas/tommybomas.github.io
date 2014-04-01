@@ -8,21 +8,13 @@ font-family: 'Karla', sans-serif;
 
 */
 
-h1 {
-  font-family: 'Chango', sans-serif;
-}
+h1 {font-family: 'Chango', sans-serif;}
 
-h2 {
-  font-family: 'Fredoka One', sans-serif;
-}
+h2 {font-family: 'Fredoka One', sans-serif;}
 
-p {
-  font-family: 'Karla', sans-serif;
-}
+p {font-family: 'Karla', sans-serif;}
 
-a {
-  text-decoration: none;
-}
+a {text-decoration: none;}
 
 body {
   background: #111;
@@ -31,6 +23,10 @@ body {
   margin: 0;
 }
 
+/***************************************
+Heading
+
+***************************************/
 
 div.heading {
   background: #444;
@@ -46,6 +42,10 @@ div.heading h2 {
   margin: 0;
 }
 
+/***************************************
+Navigation
+
+***************************************/
 
 nav {
   float: left;
@@ -73,4 +73,19 @@ div.mainmenu li {
 
 .mainmenu a:hover, li.selected {
   background: #447;
+}
+
+/***************************************
+Footer
+
+***************************************/
+
+div.footerinfo {
+  padding: 0;
+  margin: 0;
+  background: #101019;
+}
+div.footerinfo p {
+  color: #557;
+  text-align: center;
 }
