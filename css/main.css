@@ -14,7 +14,7 @@ h2 {font-family: 'Fredoka One', sans-serif;}
 
 a, p {font-family: 'Karla', sans-serif;}
 
-nav a {
+h3, nav a {
   text-decoration: none;
   font-family: 'Nova Square', sans-serif;
 }
@@ -101,6 +101,13 @@ Content
 
 .content p {
   padding: 5px 1%;
+}
+
+.divblock {
+}
+
+.bulletlist {
+  display: inline-block;
 }
 
 /***************************************
