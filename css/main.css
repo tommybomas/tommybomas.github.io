@@ -93,6 +93,7 @@ div.mainmenu li {
 Content
 
 ***************************************/
+
 .content div {
   width: 80%;
   margin-left: auto;
@@ -108,6 +109,66 @@ Content
 
 .bulletlist {
   display: inline-block;
+}
+
+#tutorial div{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tutorial div.tutorialdiv, div.tutorialdivright {
+  float: left;
+  width: 45%;
+  padding: 0 5px;
+  margin: 1px;
+  background: #222;
+}
+
+#tutorial a {
+  text-decoration: none;
+  color: #CCF;
+}
+
+#tutorial img {
+  float: left;
+  display: block;
+}
+
+#tutorial p {
+  float: left;
+}
+
+/*
+#tutorial div.tutorialdivright a {
+  text-decoration: none;
+  color: #CCF;
+}
+*/
+
+#tutorial div.tutorialdivright img {
+  float: right;
+  display: block;
+}
+
+#tutorial div.tutorialdivright p {
+  float: right;
+}
+
+.breaker {
+  clear: both
+}
+
+#tutorial div.tutorialdivwide {
+  float: left;
+  width: 100%;
+  padding: 0 5px;
+  background: #222;
+}
+
+#tutorial div.tutorialdivwide img {
+  max-width: 50%;
+  float: right;
+  display: block;
 }
 
 /***************************************
