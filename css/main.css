@@ -20,6 +20,10 @@ p {
   font-family: 'Karla', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background: #111;
   color: #CCF;
@@ -61,4 +65,12 @@ div.mainmenu li {
   padding: 0 5%;
   display: inline-block;
 
+}
+
+.mainmenu a, a:visited {
+  color: #CCF;
+}
+
+.mainmenu a:hover, li.selected {
+  background: #447;
 }
