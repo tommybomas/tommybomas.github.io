@@ -159,7 +159,9 @@
         }
         .span_4, #tutorial div.tutorialdiv, #tutorial div.tutorialdivright {
             width:30%;
-            min-height: 410px
+            min-height: 410px;
+            border: 1px solid;
+            border-color: #161616;
         }
         .span_5 {
             width:41.6666666667%;
