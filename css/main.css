@@ -12,7 +12,9 @@ h1 {font-family: 'Chango', sans-serif;}
 
 h2 {font-family: 'Fredoka One', sans-serif;}
 
-a, p {font-family: 'Karla', sans-serif;}
+a, p {
+  font-family: 'Karla', sans-serif;
+}
 
 h3, nav a {
   text-decoration: none;
@@ -101,7 +103,12 @@ Content
 }
 
 .content p {
+  display: inline-block;
   padding: 5px 1%;
+}
+
+.content a {
+  color: #CCF;
 }
 
 .divblock {
