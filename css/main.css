@@ -96,6 +96,11 @@ Content
 
 ***************************************/
 
+#IDabout p {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .content div {
   width: 95%;
   margin-left: auto;
