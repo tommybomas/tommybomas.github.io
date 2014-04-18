@@ -36,7 +36,7 @@
         }
         .col {
             border-left-width:0px;
-            padding:0 0%;
+        	padding:0 0%;
         }
         
         
@@ -50,10 +50,10 @@
         }
         */
         
-        .span_1, #tutorial div.tutorialdiv, #tutorial div.tutorialdivright {
+        .span_1 {
             width:50%;
         }
-        .span_2, #tutorial div.tutorialdivwide {
+        .span_2 {
             margin-left:0;
             width:100%;
         }
@@ -81,7 +81,7 @@
         }
         .col {
             border-left-width:0px;
-            padding:0 0%;
+        	padding:0 0%;
         }
         
         
@@ -96,7 +96,7 @@
         .span_3 {
             width:33.3333333333%;
         }
-        .span_4, #tutorial div.tutorialdiv, #tutorial div.tutorialdivright {
+        .span_4 {
             width:44.4444444444%;
         }
         .span_5 {
@@ -111,7 +111,7 @@
         .span_8 {
             width:88.8888888889%;
         }
-        .span_9, #tutorial div.tutorialdivwide {
+        .span_9 {
             margin-left:0;
             width:100%;
         }
@@ -142,7 +142,7 @@
         }
         .col {
             border-left-width:0px;
-            padding:0 0%;
+        	padding:0 0%;
         }
         
         
@@ -157,11 +157,8 @@
         .span_3 {
             width:25.0%;
         }
-        .span_4, #tutorial div.tutorialdiv, #tutorial div.tutorialdivright {
-            width:30%;
-            min-height: 410px;
-            border: 1px solid;
-            border-color: #161616;
+        .span_4 {
+            width:33.3333333333%;
         }
         .span_5 {
             width:41.6666666667%;
@@ -184,7 +181,7 @@
         .span_11 {
             width:91.6666666667%;
         }
-        .span_12, #tutorial div.tutorialdivwide {
+        .span_12 {
             margin-left:0;
             width:100%;
         }
